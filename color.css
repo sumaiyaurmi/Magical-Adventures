@@ -20,7 +20,9 @@
 
 /* header start */
 header {
-max-width: 1440px;}
+
+max-width: 1440px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -123,7 +125,7 @@ select {
 /* banner end */
 /* main start */
 main{
- max-width: 1440px;
+max-width: 1340px;
  margin:50px;
 }
 /* popular start */
@@ -146,18 +148,59 @@ padding-bottom: 20px;
 margin-bottom: 20px;
 }
 /* popular end */
+/* destinationa start */
+.destination{
+}
+.destination-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.destination-description{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-weight: 400;
+margin-bottom: 40px;
+}
+.destination-img-container{
+  width: 100%;
+}
+ .img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7
+ {
+  width: 100%;
+  }
+.img-1st-row{
+display: flex;
+gap: 24px;
+justify-content: center;
+padding-bottom: 24px;
+}
+.img-2nd-row{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+padding-bottom: 24px;
+}
+.img-3rd-row{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+padding-bottom: 24px;
+}
+/* destination end */
 /* main end */
 @media screen and (max-width: 600px) {
   header,main {
     margin: 0;
     width: 100%;
   }
-  .nav-title-content{
 
-  }
   .nav-links {
     display: none;
   }
+  .popular-title,
   .banner-title{
     font-size: 2rem;
   }
@@ -168,6 +211,9 @@ margin-bottom: 20px;
     width: 85%;
     margin: 30px;
   }
+  .img-1st-row,
+  .img-2nd-row,
+  .img-3rd-row,
   .popular,
   .banner-form {
     flex-direction: column;
@@ -181,10 +227,13 @@ width: 80%;  }
 .icon{
     padding-left: 90px;
   }
+  .destination,
  .popular{
   margin: 40px;
  }
- .popular-title{
-  font-size: 2rem;
- }
+
+
+}
+@media screen and (min-width:992px) {
+
 }
