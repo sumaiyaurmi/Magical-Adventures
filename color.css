@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* common styles */
+.orange-color {
+  color: #ff5400;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  padding: 15px;
+  width: 150px;
+  border: 0;
+}
+/* header start */
+header {
+  margin: 50px 130px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title-content {
+  display: flex;
+  align-items: center;
+}
+.nav-title-content img {
+  width: 3rem;
+  margin-top: 15px;
+}
+.nav-title-content h3 {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.A {
+  font-size: 3rem;
+}
+nav ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-right: 35px;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: 400;
+}
+/* nav end */
+/* banner start */
+.banner {
+  margin-top: 50px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  width: 100%;
+  min-height: 600px;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 100px;
+}
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 24px 150px;
+  margin-top: 40px;
+}
+.banner-form-container{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.banner-form {
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.banner-form input,
+select {
+  padding: 16px;
+  border-radius: 10px;
+  border: 0;
+  color: rgba(19, 19, 24, 0.5);
+}
+.banner-form .banner-btn {
+  background: #ff5400;
+  color: #fff;
+  padding-left: 50px;
+}
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.icon {
+  padding: 15px;
+  color: #fff;
+}
+/* banner end */
+/* main start */
+main{
+  margin: 50px 130px;
+}
+/* main end */
+@media screen and (max-width: 600px) {
+  header {
+    margin: 0;
+    width: 100%;
+  }
+  .nav-title-content{
+
+  }
+  .nav-links {
+    display: none;
+  }
+  .banner-title{
+    font-size: 2rem;
+  }
+  .banner-description {
+    padding: 10px;
+  }
+  .banner-form-container{
+    width: 85%;
+    margin: 30px;
+  }
+  .banner-form {
+    flex-direction: column;
+  }
+  .banner-form input,
+  select {
+width: 80%;  }
+.banner-btn{
+  margin-left: 50px;
+}
+.icon{
+    padding-left: 90px;
+  }
+}
