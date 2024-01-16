@@ -184,6 +184,10 @@ main {
   padding-bottom: 24px;
 }
 /* destination end */
+
+/* about end */
+
+/* choose start */
 .choose {
   margin: 50px;
 }
@@ -243,12 +247,9 @@ main {
 }
 /* choose section end */
 /* perfect start */
-
-
-/* perfect end */
 /* newsltter section start */
 
-.newsletter-container{
+.newsletter{
   display: flex;
   gap: 24px;
 }
@@ -345,12 +346,11 @@ margin-bottom: 10px;
   .banner-btn{
     margin-left: 40px;
   }
-
-  .newsletter,
+  
   .img-1st-row,
   .img-2nd-row,
   .img-3rd-row,
-  .popular,
+  .popular,.newsletter,
   .card-container-1,
   .banner-form {
     flex-direction: column;
@@ -375,5 +375,9 @@ margin-bottom: 10px;
   }
   .footer-title{
     font-size: 1rem;
+  }
+  .perfact-iframe iframe{
+    width: 100%;
+    margin: 20px;
   }
 }
