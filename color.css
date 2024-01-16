@@ -145,6 +145,7 @@ main {
   color: rgba(19, 19, 24, 0.7);
   margin-bottom: 20px;
 }
+
 /* popular end */
 /* destinationa start */
 .destination {
@@ -182,6 +183,11 @@ main {
   gap: 24px;
   justify-content: center;
   padding-bottom: 24px;
+}
+.destination-img:hover{
+border: 1px solid rgb(77, 76, 74);
+border-radius: 10px;
+box-shadow: 1px 1px 5px rgb(124, 122, 121) ;
 }
 /* destination end */
 
@@ -229,6 +235,18 @@ main {
   width: 50%;
   margin: 0 auto;
 }
+.card-1:hover {
+border: 1px solid black;
+box-shadow: 1px 1px 4px rgb(133, 128, 128);
+}
+.card-2:hover {
+  border: 1px solid black;
+  box-shadow: 1px 1px 4px rgb(126, 120, 120);
+  }
+  .card-3:hover {
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px rgb(131, 113, 113);
+    }
 .card-img {
   padding: 30px;
 }
@@ -261,6 +279,9 @@ hr {
   border-radius: 16px;
   border: 1px solid #ff5400;
   width: 50%;
+}
+.newsletter-text:hover{
+  box-shadow: 2px 2px 4px red;
 }
 .newsletter-title {
   padding: 20px;
