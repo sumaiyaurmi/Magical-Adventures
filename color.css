@@ -210,6 +210,7 @@ border: 1px solid rgb(77, 76, 74);
 border-radius: 10px;
 box-shadow: 1px 1px 5px rgb(124, 122, 121) ;
 }
+
 /* destination end */
 
 
@@ -284,7 +285,32 @@ box-shadow: 1px 1px 4px rgb(133, 128, 128);
   padding-right: 10px;
 }
 /* choose section end */
-
+/* deal section start */
+.deal{
+  margin: 50px;
+  }
+  .deal-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  .deal-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  padding-bottom: 20px;
+  }
+  .deal-img-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .deal-img img{
+    width: 100%;
+  }
+  /* deal end */
 /* perfact start */
 .perfact{
   display:flex;
@@ -456,7 +482,7 @@ margin-bottom: 20px;
     padding: 10px;
   }
   
-  
+  .deal,
   header,
   main,
   .perfact,
@@ -476,7 +502,8 @@ margin-bottom: 20px;
   .nav-dropdown{visibility: visible;}
   .newsletter-img img {
     width: 100%;
-  }
+  }.choose,
+  .deal-title
   .perfact-title,
   .popular-title,
   .banner-title {
@@ -512,6 +539,7 @@ margin-bottom: 20px;
   .icon {
     padding-left: 50px;
   }
+  .deal,
   .newsletter,
   .perfact,
   .destination,
