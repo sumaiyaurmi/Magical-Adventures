@@ -326,6 +326,31 @@ padding-bottom: 20px;
   font-weight: 700;
 position: absolute;
 }
+.perfact-img-00{
+position: absolute;
+bottom: 30px;
+color: #FFF;
+left:40px;
+}
+.pause{
+  color: #FFF;
+  position: absolute;
+  bottom:30px;
+  left: 18px;
+}
+.three-dot{
+  position: absolute;
+  color: #FFF;
+  bottom: 30px;
+  right: 40px;
+}
+.perfact-img-hr{
+color: #FFF;
+position: absolute;
+bottom: 15px;
+width:90%;
+left: 5px;
+}
 /* perfact end */
 /* newsltter section start */
 
