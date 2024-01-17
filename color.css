@@ -212,7 +212,6 @@ box-shadow: 1px 1px 5px rgb(124, 122, 121) ;
 }
 /* destination end */
 
-/* about end */
 
 /* choose start */
 .choose {
@@ -285,7 +284,49 @@ box-shadow: 1px 1px 4px rgb(133, 128, 128);
   padding-right: 10px;
 }
 /* choose section end */
-/* perfect start */
+/* perfact start */
+.perfact{
+  display:flex;
+  gap: 24px;
+  padding-bottom: 50px;
+}
+.perfact-text{
+  width: 50%;
+}
+.perfact-title{
+font-size: 40px;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.perfact-description{
+  color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 20px;
+}
+.perfact-text ul li{
+  list-style-type: disc;
+  margin: 20px;
+}
+.perfact-imgs{
+  width: 50%;
+  background-image: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 40089.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  border-radius: 16px;
+  position: relative;
+}
+.perfact-img-text{
+  color: #FFF;
+  top: 150px;
+  left: 150px;
+  font-size: 24px;
+  font-weight: 700;
+position: absolute;
+}
+/* perfact end */
 /* newsltter section start */
 
 .newsletter{
@@ -385,6 +426,7 @@ margin-bottom: 20px;
   .newsletter-img img {
     width: 100%;
   }
+  .perfact-title,
   .popular-title,
   .banner-title {
     font-size: 2rem;
@@ -402,7 +444,7 @@ margin-bottom: 20px;
     padding-bottom: 20px;
   }
  
-  
+.perfact,
   .img-1st-row,
   .img-2nd-row,
   .img-3rd-row,
@@ -419,6 +461,8 @@ margin-bottom: 20px;
   .icon {
     padding-left: 50px;
   }
+  .newsletter,
+  .perfact,
   .destination,
   .popular {
     padding: 20px;
@@ -426,8 +470,8 @@ margin-bottom: 20px;
   .card-3 {
     width: 100%;
   }
-  .newsletter {
-    padding: 20px;
+  .perfact-text,.perfact-imgs{
+    width: 100%;
   }
   .footer-title{
     font-size: 2rem;
