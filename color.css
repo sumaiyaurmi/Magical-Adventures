@@ -391,9 +391,32 @@ hr {
 }
 .newsletter-img{
   display: inline;
+  position: relative;
 }
 .newsletter-img img {
   width: 100%;
+
+}
+.save-70{
+  border-radius: 16px;
+  background: #FF5400;
+  width: 300px;
+  transform: rotate(-25.628deg);
+  padding: 20px;
+  position: absolute;
+bottom: 80px;
+  right: 25px;
+}
+.save-70 p{
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+
+}
+.save-70 h4{
+  color: #FFF;
+  font-size: 32px;
+text-align: center;
 
 }
 /*newsletter section end  */
