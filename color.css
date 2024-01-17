@@ -284,11 +284,13 @@ box-shadow: 1px 1px 4px rgb(133, 128, 128);
   padding-right: 10px;
 }
 /* choose section end */
+
 /* perfact start */
 .perfact{
   display:flex;
   gap: 24px;
   padding-bottom: 50px;
+  margin: 30px;
 }
 .perfact-text{
   width: 50%;
@@ -457,6 +459,7 @@ margin-bottom: 20px;
   
   header,
   main,
+  .perfact,
   .newsletter-text {
     margin: 0;
     width: 100%;
