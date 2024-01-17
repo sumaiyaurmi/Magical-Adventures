@@ -17,11 +17,11 @@
   border: 0;
 }
 /* body  */
+body{  max-width: 1440px;
+  padding: 20px;}
 
 /* header start */
-header {
-  max-width: 1440px;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -44,6 +44,14 @@ nav {
 .A {
   font-size: 3rem;
 }
+.nav-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-dropdown{
+  visibility: hidden;
+}
 nav ul {
   display: flex;
 }
@@ -54,6 +62,14 @@ ul li {
 ul li a {
   text-decoration: none;
   font-weight: 400;
+  color:black;
+}
+ul li a:hover{
+  font-size: 1.2rem;
+  background-color:white;
+  transition: 0.6s;
+  border-radius: 5px;
+  padding: 5px;
 }
 /* nav end */
 /* banner start */
@@ -122,9 +138,8 @@ select {
 }
 /* banner end */
 /* main start */
-main {
-  max-width: 1440px;
-  margin: 50px;
+main{
+  padding: 30px;
 }
 /* popular start */
 .popular {
@@ -338,17 +353,30 @@ margin-bottom: 10px;
 /* footer end */
 /* main end */
 @media screen and (max-width: 600px) {
+
+  body,main{
+    padding: 10px;
+  }
+  
+  
   header,
   main,
   .newsletter-text {
     margin: 0;
     width: 100%;
   }
+  .nav-title-content{
+    width: 70%;
+  }
+  .nav-title-content h3{
+    font-size: 1.5rem;
+  }
+  .nav-links ul {
+    display: none;
+  }
+  .nav-dropdown{visibility: visible;}
   .newsletter-img img {
     width: 100%;
-  }
-  .nav-links {
-    display: none;
   }
   .popular-title,
   .banner-title {
@@ -386,13 +414,13 @@ margin-bottom: 10px;
   }
   .destination,
   .popular {
-    margin: 40px;
+    padding: 20px;
   }
   .card-3 {
     width: 100%;
   }
   .newsletter {
-    margin: 40px;
+    padding: 20px;
   }
   .footer-title{
     font-size: 2rem;
@@ -400,8 +428,5 @@ margin-bottom: 10px;
   .A {
     font-size: 2.8rem;
   }
-  .perfact-iframe iframe{
-    width: 100%;
-    margin: 20px;
-  }
+
 }
